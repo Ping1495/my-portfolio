@@ -1,0 +1,67 @@
+.techSkillSec {
+  background: #202020;
+  color: #202020;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+
+.technicalSkills {
+  color: #000;
+  background-image: linear-gradient(45deg, orange, #ff6600);
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.titleSkill {
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 30px;
+  width: 300px;
+  height: 530px;
+  margin: 20px;
+  background: white;
+  box-shadow: 10px 10px 1px rgba(255, 170, 5, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.boxSkill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  border-radius: 10px;
+  background: #ff6600;
+  color: white;
+  padding: 5px 40px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.subTitle {
+  color: #ff6600;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: x-large;
+}
+
+#data {
+  padding: 5px;
+  font-size: large;
+}
+
+.git {
+  margin-top: 30px;
+}

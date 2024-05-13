@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroSec {
+  height: 734px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* จัดตำแหน่งสิ่งที่อยู่ภายในแนวนอน โดยแบ่งช่องว่างระหว่างองค์ประกอบให้เท่าๆ กัน */
+  align-items: center; /* จัดตำแหน่งสิ่งที่อยู่ภายในให้อยู่กึ่งกลางในแนวดิ่ง */
+}
+
+.heroContent {
+  width: 45vw;
+}
+
+.heroImg {
+  height: 734px;
+  background-image: linear-gradient(45deg, orange, #ff6600);
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.helloMessage {
+  font-size: 36px;
+  font-weight: 550;
+  margin: 20px;
+}
+
+.myMessage {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-image: linear-gradient(45deg, orange, #ff6600);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 550;
+  padding: 8px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(45deg, #ff6600, red);
+}
+
+.welcomeMessage {
+  color: #333;
+}

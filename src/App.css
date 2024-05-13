@@ -1,0 +1,80 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202020; /* สีพื้นหลังของ Header */
+  color: white;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pageLogo {
+  width: 80px; /* กำหนดความกว้างของโลโก้ */
+  height: 100px; /* กำหนดความสูงของโลโก้ */
+  margin: 5px;
+}
+
+.pageName {
+  color: #ff6600;
+}
+
+.helloMessage {
+  color: #ff6600;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  padding: 0%;
+}
+
+.header nav ul {
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  border: 3px solid #ff6600;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+li:hover {
+  border: 3px solid #ff6600;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+li:active {
+  border: 3px solid #ff6600;
+  padding: 5px;
+  border-radius: 10%;
+  background: #ff6600;
+}
+
+.footer {
+  background-color: #202020; /* เปลี่ยนสีพื้นหลังต่อนมา ตามต้องการ */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
