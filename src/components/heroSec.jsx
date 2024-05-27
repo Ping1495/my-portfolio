@@ -6,7 +6,7 @@ function HeroSec() {
       <div className="picHero">
         <img
           className="heroImg"
-          src="/src/images/woman-4178302_1280.jpg"
+          src="src/images/woman-4178302_1280.jpg"
           alt="art of woman"
         />
       </div>

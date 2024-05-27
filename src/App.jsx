@@ -14,7 +14,7 @@ function App() {
         <div class="logo">
           <img
             className="pageLogo"
-            src="/src/images/cat-3237903_1280.png"
+            src="src/images/cat-3237903_1280.png"
             alt="cat logo"
           />
           <h1 className="pageName">Ping's portfolio</h1>
