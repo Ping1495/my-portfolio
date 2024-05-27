@@ -6,17 +6,14 @@ import TechSkillSec from "./components/techSkillSec";
 import Footer from "./components/footer";
 import SideProjectSec from "./components/sideProject";
 import MyCV from "./components/myCV";
+import catLogo from "./images/cat-3237903_1280.png";
 
 function App() {
   return (
     <>
       <header class="header">
         <div class="logo">
-          <img
-            className="pageLogo"
-            src="src/images/cat-3237903_1280.png"
-            alt="cat logo"
-          />
+          <img className="pageLogo" src={catLogo} alt="cat logo" />
           <h1 className="pageName">Ping's portfolio</h1>
         </div>
         <nav>

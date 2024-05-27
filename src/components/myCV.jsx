@@ -1,6 +1,9 @@
 import "./myCV.css";
 import React from "react";
 import cvImage from "../images/Ping-Saterat-CV.png";
+import resumeImage from "../images/resume-2296951_1280.png";
+import neighborhoodImage from "../images/neighborhood-6771319_1280.png";
+import sunImage from "../images/sun-32228_1280.png";
 
 function MyCV() {
   const downloadImage = () => {
@@ -18,7 +21,7 @@ function MyCV() {
         <div className="cvContainer">
           <img
             className="cvPic"
-            src="src/images/resume-2296951_1280.png"
+            src={resumeImage} // ใช้การ import เพื่อให้แน่ใจว่า path ถูกต้อง
             alt="cvPic"
           />
           <button id="downlodeButton" onClick={downloadImage}>
@@ -27,10 +30,14 @@ function MyCV() {
         </div>
         <img
           className="house"
-          src="src/images/neighborhood-6771319_1280.png"
-          alt=""
+          src={neighborhoodImage} // ใช้การ import เพื่อให้แน่ใจว่า path ถูกต้อง
+          alt="house"
         />
-        <img className="sun" src="src/images/sun-32228_1280.png" alt="" />
+        <img
+          className="sun"
+          src={sunImage} // ใช้การ import เพื่อให้แน่ใจว่า path ถูกต้อง
+          alt="sun"
+        />
       </div>
     </>
   );

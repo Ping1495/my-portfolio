@@ -1,14 +1,11 @@
 import "./heroSec.css";
+import womanImage from "../images/woman-4178302_1280.jpg";
 
 function HeroSec() {
   return (
     <section class="heroSec">
       <div className="picHero">
-        <img
-          className="heroImg"
-          src="src/images/woman-4178302_1280.jpg"
-          alt="art of woman"
-        />
+        <img className="heroImg" src={womanImage} alt="art of woman" />
       </div>
       <div className="heroContent">
         <div className="welcomeMessage">
