@@ -44,7 +44,7 @@
 }
 
 .getThatJobBox {
-  background: url("/src/images/ai-generated-8658200_1280.jpg");
+  background: url("/public/images/ai-generated-8658200_1280.jpg");
   /*background-color: #ff6600;  Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -52,7 +52,7 @@
 }
 
 .portfolioBox {
-  background: url("/src/images/woman-4178302_1280.jpg");
+  background: url("/public/images/woman-4178302_1280.jpg");
   /*background-color: #ff6600;  Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -60,7 +60,7 @@
 }
 
 .todoListBox {
-  background: url("/src/images/tasks-4026398_1280.jpg");
+  background: url("/public/images/tasks-4026398_1280.jpg");
   /*background-color: #ff6600;  Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

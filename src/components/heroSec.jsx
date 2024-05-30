@@ -1,5 +1,5 @@
 import "./heroSec.css";
-import womanImage from "../images/woman-4178302_1280.jpg";
+import womanImage from "/public/images/woman-4178302_1280.jpg";
 
 function HeroSec() {
   return (

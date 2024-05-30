@@ -1,9 +1,9 @@
 import "./myCV.css";
 import React from "react";
-import cvImage from "../images/Ping-Saterat-CV.png";
-import resumeImage from "../images/resume-2296951_1280.png";
-import neighborhoodImage from "../images/neighborhood-6771319_1280.png";
-import sunImage from "../images/sun-32228_1280.png";
+import cvImage from "/public/images/Ping-Saterat-CV.png";
+import resumeImage from "/public/images/resume-2296951_1280.png";
+import neighborhoodImage from "/public/images/neighborhood-6771319_1280.png";
+import sunImage from "/public/images/sun-32228_1280.png";
 
 function MyCV() {
   const downloadImage = () => {

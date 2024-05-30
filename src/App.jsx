@@ -6,7 +6,7 @@ import TechSkillSec from "./components/techSkillSec";
 import Footer from "./components/footer";
 import SideProjectSec from "./components/sideProject";
 import MyCV from "./components/myCV";
-import catLogo from "./images/cat-3237903_1280.png";
+import catLogo from "/public/images/cat-3237903_1280.png";
 
 function App() {
   return (
