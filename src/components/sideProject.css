@@ -45,26 +45,26 @@
 
 .getThatJobBox {
   background: url("/public/images/ai-generated-8658200_1280.jpg");
-  /*background-color: #ff6600;  Used if the image is unavailable */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolioBox {
   background: url("/public/images/woman-4178302_1280.jpg");
-  /*background-color: #ff6600;  Used if the image is unavailable */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .todoListBox {
   background: url("/public/images/tasks-4026398_1280.jpg");
-  /*background-color: #ff6600;  Used if the image is unavailable */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #interest {
@@ -86,4 +86,8 @@
 
 #interest:active {
   background-image: linear-gradient(45deg, black, red);
+}
+
+a {
+  text-decoration: none;
 }
